@@ -11,10 +11,11 @@ before_script:
   - sh -c "composer require 'cakephp/cakephp-codesniffer:dev-master'"
   - "mysql -u root -e 'create database caketoodoo_test;'"
   - "mysql -u root -e \"grant all on caketoodoo_test.* to 'caketoodoo';\""
+  - chmod -R 777 ../cakephp/app/tmp
 
 sudo: required
 script:
-  - phpunit app/Test/Case/
+  - phpunit app/Test/
 
 matrix:
   allow_failures:
