@@ -13,7 +13,7 @@ before_script:
 
 sudo: required
 script:
-  - sudo phpunit test.php
+  - phpunit test.php
 
 matrix:
   allow_failures:
