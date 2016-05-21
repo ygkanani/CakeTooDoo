@@ -1,0 +1,140 @@
+2016-05-19 14:27:58 Error: Testing LogError() basic function
+2016-05-19 14:27:58 Error: Testing with multi-line string
+2016-05-20 05:12:34 Error: Fatal Error (1): Call to a member function create() on null in [/private/var/www/cakephp/app/View/Accomplishments/login.ctp, line 1]
+2016-05-20 05:12:34 Error: [FatalErrorException] Call to a member function create() on null
+Request URL: /accomplishments/login
+Stack Trace:
+#0 /private/var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/private/var/ww...', 1)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/private/var/ww...', 1, Array)
+#2 /private/var/www/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/private/var/ww...', 1, Array)
+#3 /private/var/www/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-20 05:13:25 Error: Fatal Error (1): Call to a member function create() on null in [/private/var/www/cakephp/app/View/Accomplishments/index.ctp, line 3]
+2016-05-20 05:13:25 Error: [FatalErrorException] Call to a member function create() on null
+Request URL: /accomplishments?team_member=yash
+Stack Trace:
+#0 /private/var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/private/var/ww...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/private/var/ww...', 3, Array)
+#2 /private/var/www/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/private/var/ww...', 3, Array)
+#3 /private/var/www/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-20 06:29:08 Error: Fatal Error (1): Call to undefined function assertFalse() in [/private/var/www/cakephp/app/Test/Case/Model/TaskTest.php, line 91]
+2016-05-20 06:29:08 Error: [FatalErrorException] Call to undefined function assertFalse()
+Stack Trace:
+#0 /private/var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/private/var/ww...', 91)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/private/var/ww...', 91, Array)
+#2 /private/var/www/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/private/var/ww...', 91, Array)
+#3 /private/var/www/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-20 06:31:34 Error: Fatal Error (1): Call to undefined method TaskTest::saveData() in [/private/var/www/cakephp/app/Test/Case/Model/TaskTest.php, line 65]
+2016-05-20 06:31:34 Error: [FatalErrorException] Call to undefined method TaskTest::saveData()
+Stack Trace:
+#0 /private/var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/private/var/ww...', 65)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/private/var/ww...', 65, Array)
+#2 /private/var/www/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/private/var/ww...', 65, Array)
+#3 /private/var/www/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-20 09:07:19 Error: Fatal Error (4): syntax error, unexpected ',' in [/private/var/www/cakephp/app/Model/Task.php, line 54]
+2016-05-20 09:07:19 Error: [FatalErrorException] syntax error, unexpected ','
+Stack Trace:
+#0 /private/var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/private/var/ww...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/private/var/ww...', 54, Array)
+#2 /private/var/www/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/private/var/ww...', 54, Array)
+#3 /private/var/www/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-20 09:08:44 Error: Fatal Error (4): syntax error, unexpected ';' in [/private/var/www/cakephp/app/Model/Task.php, line 54]
+2016-05-20 09:08:44 Error: [FatalErrorException] syntax error, unexpected ';'
+Stack Trace:
+#0 /private/var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/private/var/ww...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/private/var/ww...', 54, Array)
+#2 /private/var/www/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/private/var/ww...', 54, Array)
+#3 /private/var/www/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-20 09:09:09 Error: Fatal Error (1): Call to undefined method TaskTest::validateTitle() in [/private/var/www/cakephp/app/Test/Case/Model/TaskTest.php, line 105]
+2016-05-20 09:09:09 Error: [FatalErrorException] Call to undefined method TaskTest::validateTitle()
+Stack Trace:
+#0 /private/var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/private/var/ww...', 105)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/private/var/ww...', 105, Array)
+#2 /private/var/www/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/private/var/ww...', 105, Array)
+#3 /private/var/www/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-20 09:09:29 Error: Fatal Error (1): Call to undefined method TaskTest::validateTitle() in [/private/var/www/cakephp/app/Test/Case/Model/TaskTest.php, line 105]
+2016-05-20 09:09:29 Error: [FatalErrorException] Call to undefined method TaskTest::validateTitle()
+Stack Trace:
+#0 /private/var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/private/var/ww...', 105)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/private/var/ww...', 105, Array)
+#2 /private/var/www/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/private/var/ww...', 105, Array)
+#3 /private/var/www/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-20 09:09:43 Error: Fatal Error (1): Call to undefined method TaskTest::validateTitle() in [/private/var/www/cakephp/app/Test/Case/Model/TaskTest.php, line 105]
+2016-05-20 09:09:43 Error: [FatalErrorException] Call to undefined method TaskTest::validateTitle()
+Stack Trace:
+#0 /private/var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/private/var/ww...', 105)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/private/var/ww...', 105, Array)
+#2 /private/var/www/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/private/var/ww...', 105, Array)
+#3 /private/var/www/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-20 09:33:40 Error: Fatal Error (1): Call to undefined method TaskTest::saveData() in [/private/var/www/cakephp/app/Test/Case/Model/TaskTest.php, line 64]
+2016-05-20 09:33:40 Error: [FatalErrorException] Call to undefined method TaskTest::saveData()
+Stack Trace:
+#0 /private/var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/private/var/ww...', 64)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/private/var/ww...', 64, Array)
+#2 /private/var/www/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/private/var/ww...', 64, Array)
+#3 /private/var/www/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-20 09:43:53 Error: Fatal Error (4): syntax error, unexpected ')' in [/private/var/www/cakephp/app/Test/Case/Model/TaskTest.php, line 111]
+2016-05-20 09:43:53 Error: [FatalErrorException] syntax error, unexpected ')'
+Stack Trace:
+#0 /private/var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/private/var/ww...', 111)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/private/var/ww...', 111, Array)
+#2 /private/var/www/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/private/var/ww...', 111, Array)
+#3 /private/var/www/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-20 10:09:04 Error: Fatal Error (1): Class 'AppController' not found in [/private/var/www/cakephp/app/Controller/TasksController.php, line 66]
+2016-05-20 10:09:04 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /tasks/index
+Stack Trace:
+#0 /private/var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/private/var/ww...', 66)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/private/var/ww...', 66, Array)
+#2 /private/var/www/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/private/var/ww...', 66, Array)
+#3 /private/var/www/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-20 11:04:02 Error: Fatal Error (4): syntax error, unexpected '{' in [/private/var/www/cakephp/app/Test/Case/Model/TaskTest.php, line 48]
+2016-05-20 11:04:02 Error: [FatalErrorException] syntax error, unexpected '{'
+Stack Trace:
+#0 /private/var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/private/var/ww...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/private/var/ww...', 48, Array)
+#2 /private/var/www/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/private/var/ww...', 48, Array)
+#3 /private/var/www/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-20 11:07:55 Error: Fatal Error (4): syntax error, unexpected '{', expecting '(' in [/private/var/www/cakephp/app/Test/Case/Model/TaskTest.php, line 61]
+2016-05-20 11:07:55 Error: [FatalErrorException] syntax error, unexpected '{', expecting '('
+Stack Trace:
+#0 /private/var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/private/var/ww...', 61)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/private/var/ww...', 61, Array)
+#2 /private/var/www/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/private/var/ww...', 61, Array)
+#3 /private/var/www/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-20 11:36:14 Error: [MissingControllerException] Controller class TaksController could not be found.
+Exception Attributes: array (
+  'class' => 'TaksController',
+  'plugin' => NULL,
+)
+Request URL: /taks
+Stack Trace:
+#0 /private/var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
