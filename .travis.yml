@@ -14,7 +14,7 @@ before_script:
 
 sudo: required
 script:
-  - ./lib/Cake/Console/cake test app
+  - ./lib/Cake/Console/cake test app Model/Task
 
 matrix:
   allow_failures:
