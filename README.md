@@ -1,3 +1,5 @@
+https://travis-ci.org/ykanani0/CakeTooDoo.svg?branch=master
+
 CakePHP
 =======
 
