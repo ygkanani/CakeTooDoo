@@ -11,6 +11,8 @@ before_script:
   - sh -c "composer global require 'phpunit/phpunit=3.7.33'"
   - "mysql -u root -e 'create database caketoodoo_test;'"
   - "mysql -u root -e \"grant all on caketoodoo_test.* to 'caketoodoo';\""
+  - curl -O https://shunit2.googlecode.com/files/shunit2-2.1.6.tgz
+  - tar zxvf shunit2-2.1.6.tgz
 
 sudo: required
 script:
