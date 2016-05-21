@@ -11,7 +11,8 @@ before_script:
   - "mysql -u root -e 'create database caketoodoo_test;'"
   - "mysql -u root -e \"grant all on caketoodoo_test.* to 'caketoodoo';\""
 
-script: php phpunit tests
+sudo: required
+script: phpunit tests
 
 matrix:
   allow_failures:
