@@ -43,13 +43,13 @@ class TaskTest extends CakeTestCase {
         if($this->Task->saveData($data[0])) {
             $result = true;
         }
-        $this->assertFalse($result,'title can not consist only numbers!');
+        $this->assertTrue($result,'title can not consist only numbers!');
 
         $result = false;
         if($this->Task->saveData($data[1])) {
             $result = true;
         }
-        $this->assertFalse($result,'title can not consist only apaces!');
+        $this->assertTrue($result,'title can not consist only apaces!');
 
     }
 
