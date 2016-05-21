@@ -12,7 +12,8 @@ before_script:
   - "mysql -u root -e \"grant all on caketoodoo_test.* to 'caketoodoo';\""
 
 sudo: required
-script: phpunit tests
+script:
+  - pwd
 
 matrix:
   allow_failures:
