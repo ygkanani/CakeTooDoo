@@ -24,7 +24,8 @@ matrix:
   fast_finish: true
   
 after_success:
-  - ../CakeTooDoo/after_success.sh
+  - wget -O codecov.sh https://codecov.io/bash
+	- bash codecov.sh
 
 notifications:
   email: false
