@@ -24,6 +24,7 @@ matrix:
   fast_finish: true
   
 after_success:
+  - pwd
   - wget -O codecov.sh https://codecov.io/bash
   - bash codecov.sh
 
