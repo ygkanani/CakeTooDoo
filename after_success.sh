@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Move to APP
-if [ -d /app ]; then
-	cd /app
+if [ -d ../CakeTooDoo/app ]; then
+	cd ../CakeTooDoo/app
 fi
 
 if [ "$CODECOVERAGE" == '1' ]; then
