@@ -25,6 +25,7 @@ matrix:
   
 after_success:
   - pwd
+  - cd /app
   - wget -O codecov.sh https://codecov.io/bash
   - bash codecov.sh
 
