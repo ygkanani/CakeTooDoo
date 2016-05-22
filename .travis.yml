@@ -25,7 +25,7 @@ matrix:
   
 after_success:
   - wget -O codecov.sh https://codecov.io/bash
-	- bash codecov.sh
+  - bash codecov.sh
 
 notifications:
   email: false
