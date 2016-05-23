@@ -1,5 +1,7 @@
 
 <?php
+App::uses('AppController','Controller');
+
 class TasksController extends AppController
 {
 	var $name = 'Tasks';
