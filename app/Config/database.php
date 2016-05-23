@@ -81,7 +81,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => '',
-		'database' => 'test',
+		'database' => 'caketoodoo_test',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
